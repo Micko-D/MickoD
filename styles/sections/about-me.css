@@ -44,7 +44,7 @@
 .about-me .content .content-image .image-holder {
     width: 300px;
     height: 400px;
-    background-image: url("/assets/room3.png");
+    background-image: url("https://micko-d.github.io/MickoD/assets/room3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
