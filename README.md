@@ -1,5 +1,5 @@
 # MickoD
-Welcome to my portfolio! I'm [Your Name], a developer skilled in web and mobile development, offering services in web development, mobile apps, UI/UX design, graphic design, and video editing. Let's connect for opportunities!
+Welcome to my portfolio! I'm Micko D, a developer skilled in web and mobile development, offering services in web development, mobile apps, UI/UX design, graphic design, and video editing. Let's connect for opportunities!
 
 Welcome to My Portfolio
 Hello! I'm Micko Domingo, a passionate developer specializing in web and mobile development. With a BSIT focused on web and mobile development, and additional coursework in cybersecurity and system administration, I have a strong foundation in various technologies.
