@@ -1,0 +1,123 @@
+.about-me-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.about-me h1 {
+    font-size: 70px;
+    letter-spacing: .09em;
+    margin-top: 0px;
+    opacity: .7;
+}
+
+#highlight-me {
+    color: #dcdcdc;
+}
+
+#transparent-text-aboutMe {
+    display: flex;
+    position: absolute;
+    transform: translateY(40px);
+    font-size: 90px;
+    color: #6817b956;
+    z-index: -1;
+    margin-top: 0px;
+}
+
+.about-me .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.about-me .content .content-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me .content .content-image .image-holder {
+    width: 300px;
+    height: 400px;
+    background-image: url("/assets/room3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1212127d;
+    background-blend-mode: overlay;
+    border-radius: 20px;
+    border-top-left-radius: 150px;
+    z-index: 1;
+}
+
+.about-me .content-image .border-holder {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    border: 8px solid #6817b99c;
+    border-top-left-radius: 150px;
+}
+
+.about-me .content .info-holder {
+    width: 700px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.about-me .content .info-holder .basic-info {
+    width: 290px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.about-me .content .info-holder .basic-info:nth-child(2) {
+    width: 370px;
+}
+
+.about-me .content .info-holder .basic-info h1 {
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    letter-spacing: .1em;
+    color: #dcdcdc;
+}
+
+.about-me .content .info-holder .basic-info p {
+    color: #dcdcdc;
+    letter-spacing: 0.1em;
+}
+
+.about-me .content .info-holder .basic-info #info-label {
+    color: #dcdcdc94;
+}
+
+.about-me .content .info-holder .basic-info .hire-button {
+    width: 120px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #6817b9cc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-me .content .info-holder .basic-info .hire-button:hover {
+    color: #6817b99e;
+    background-color: #dcdcdc;
+    transition: ease-in-out .3s;
+    opacity: .7;
+}

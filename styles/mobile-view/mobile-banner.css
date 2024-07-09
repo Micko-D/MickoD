@@ -1,0 +1,265 @@
+/* tablet */
+@media (max-width: 1023px) {
+    .profile-section{
+        min-width: 230px;
+        max-width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 20px;
+    }
+    
+    .profile-image{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .profile-section .image{
+        width: 200px;
+        height: 200px;
+        background-color: #FFFF;
+        background-image: url("/assets/profile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: -10px -2px 20px #6817B9;
+    }
+    
+    .profile-section .image-overlay{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        position: absolute;
+        background-color: #00000044;
+        border-radius: 50%;
+    }
+    
+    .profile-section .mini-logo{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(60px) translateY(150px);
+        border-radius: 50%;
+    }
+    
+    .profile-section .profile-logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .profile-section .social-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #6817b978;
+        height: 50px;
+        width: 150px;
+        border-radius: 50px;
+    }
+    
+    .profile-section .social-links i{
+        cursor: pointer;
+        color: #dcdcdc;
+    }
+    
+    .profile-section .social-links i:hover{
+        color: #FF09F3;
+        transition: ease-in-out .3s;
+    }
+
+    /* ------------------- */
+
+    .introduction{
+        min-width: 450px;
+        max-width: 450px;
+        height: 300px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        background-color: #6817b97c;
+        border-radius: 20px;
+    }
+    
+    div.box{
+        width: 150px;
+        height: 80px;
+        background-color: #ff09f37e;
+        display: flex;
+        position: absolute;
+        transform: translateX(330px) translateY(-50px);
+        border-radius: 50px;
+    }
+    
+    .introduction p, .introduction h1{
+        letter-spacing: 0.1em;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        font-size: large;
+    }
+    
+    .introduction p{
+        font-weight: bolder;
+    }
+    
+    .introduction h1{
+        font-size: 32px;
+        line-height: .5;
+        margin-bottom: 30px;
+        color: #dcdcdc;
+    }
+    
+    .introduction #typing-text-position{
+        color: #dcdcdc;
+    }
+    
+    #my-p-tag{
+        line-height: 1.8;
+        color: #dcdcdc;
+    }
+    
+    .typing-section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .banner .content {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-section{
+        min-width: 120px;
+        max-width: 120px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-self: flex-start;
+        position: absolute;
+        right: 30px;
+        top: -40px;
+        gap: 20px;
+    }
+    
+    .profile-image{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .profile-section .image{
+        width: 90px;
+        height: 90px;
+        background-color: #FFFF;
+        background-image: url("/assets/profile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: -10px -2px 10px #6817B9;
+    }
+    
+    .profile-section .image-overlay{
+        width: 90px;
+        height: 90px;
+        display: flex;
+        position: absolute;
+        background-color: #00000044;
+        border-radius: 50%;
+    }
+    
+    .profile-section .mini-logo{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(35px) translateY(50px);
+        border-radius: 50%;
+    }
+    
+    .profile-section .profile-logo{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .profile-section .social-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #6817b978;
+        height: 40px;
+        width: 120px;
+        border-radius: 50px;
+    }
+
+/* ------------------- */
+
+    .introduction{
+        min-width: 280px;
+        max-width: 80%;
+        min-height: 150px;
+        max-height: 250px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 80px;
+        background-color: #6817b97c;
+        border-radius: 10px;
+    }
+    
+    div.box{
+        display: none;
+    }
+    
+    .introduction p, .introduction h1{
+        letter-spacing: 0.1em;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: large;
+    }
+    
+    .introduction p{
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .introduction h1{
+        font-size: 22px;
+        line-height: .5;
+        margin-bottom: 10px;
+        color: #dcdcdc;
+    }
+    
+    .introduction #typing-text-position{
+        color: #dcdcdc;
+    }
+    
+    #my-p-tag{
+        font-size: 12px;
+        line-height: 1.8;
+        color: #dcdcdc;
+    }
+    
+    .typing-section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}

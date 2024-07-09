@@ -1,0 +1,15 @@
+.copy-right{
+    min-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.copy-right p{
+    color: #dcdcdc;
+}
+
+.copy-right span{
+    border-bottom: 2px solid #dcdcdc;
+}

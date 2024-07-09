@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MickoD</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://kit.fontawesome.com/2e52580f0a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- navigation-bar -->
+    <div class="navigation-bar">
+        <div class="logo">
+            <img src="assets/Logo.png" alt="Logo">
+            <h1>Micko D</h1>
+        </div>
+        <div class="menu">
+            <div id="burger-menu" class="burger-menu">
+                <i class="fa-solid fa-bars fa-xl" style="color: #dcdcdc;"></i>
+            </div>
+
+            <div class="menu-items" id="menu-items">
+                <p id="scroll-home">Home</p>
+                <p id="scroll-aboutMe">About Me</p>
+                <div class="dropdown">
+                    <p id="scroll-portfolio">Portfolio</p>
+                    <div class="dropdown-content">
+                        <p id="scroll-myResume">Resume</p>
+                        <p id="scroll-mySkill">My Skill</p>
+                        <p id="scroll-myService">Services</p>
+                    </div>
+                </div>
+                <p id="scroll-myContact">Contact</p>
+            </div>
+        </div>
+    </div>
+    <!-- navigation-bar -->
+
+    <!-- banner -->
+    <section class="banner" id="target-home">
+
+        <div class="content">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <div class="image"></div>
+                    <div class="image-overlay"></div>
+                    <div class="mini-logo">
+                        <img class="profile-logo" src="assets/Logo.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a
+                        href="mailto:mickodomingo16@gmail.com?subject=Inquiry&body=Hello%20there%20Micko,%0D%0A%0D%0AI%20would%20like%20to%20inquire%20about..."><i
+                            class="social-icon fa-solid fa-envelope fa-xl"></i></a>
+                    <a href="https://www.linkedin.com/in/mickod16/" target="_blank"><i
+                            class="social-icon fa-brands fa-linkedin fa-xl"></i></a>
+                    <a href="https://www.facebook.com/MickoD16/" target="_blank"><i
+                            class="social-icon fa-brands fa-facebook fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="introduction">
+                <div class="box"></div>
+                <p>Introduction</p>
+                <h1>I'm Micko Domingo</h1>
+                <div class="typing-section">
+                    <h1>A&nbsp;</h1>
+                    <h1 id="typing-text-position"></h1>
+                    <h1 class="cursor">|</h1>
+                </div>
+                <p id="my-p-tag"></p>
+            </div>
+        </div>
+    </section>
+    <!-- banner -->
+
+    <!-- about me -->
+    <section class="about-me" id="target-aboutMe">
+        <div class="about-me-title">
+            <h1>About <span id="highlight-me">Me</span></h1>
+            <h1 id="transparent-text-aboutMe">Personal Info</h1>
+        </div>
+        <div class="content">
+            <div class="content-image">
+                <div class="image-holder"></div>
+                <div class="border-holder"></div>
+            </div>
+            <div class="info-holder">
+                <div class="basic-info">
+                    <h1>Informtaion:</h1>
+                    <p><span id="info-label">First Name:</span> Micko</p>
+                    <p><span id="info-label">Last Name:</span> Domingo</p>
+                    <p><span id="info-label">Age:</span> 23</p>
+                    <p><span id="info-label">Nationality:</span> Filipino</p>
+                    <p><span id="info-label">Address:</span> Pangasinan</p>
+                    <p class="hire-button" id="scroll-myContact1">Hire Me</p>
+                </div>
+                <div class="basic-info">
+                    <h1>&nbsp;</h1>
+                    <p><span id="info-label">Freelance:</span> Available</p>
+                    <p><span id="info-label">Language:</span> English</p>
+                    <p><span id="info-label">Email:</span> <span class="truncate">mickodomingo16@gmail.com</span></p>
+                    <p><span id="info-label">Nationality:</span> Filipino</p>
+                    <p><span id="info-label">Address:</span> Pangasinan, Philippines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about me -->
+
+    <!-- my-resume -->
+    <section class="my-resume" id="target-myResume">
+        <div class="my-resume-title">
+            <h1>Res<span id="highlight-myresume">ume</span></h1>
+            <h1 id="transparent-text-myresume">Cover Letter</h1>
+        </div>
+        <div class="my-resume-content">
+            <div class="resume-section">
+                <h1>Education</h1>
+                <div class="resume-item">
+                    <div class="resume-icon"></div>
+                    <div class="resume-content">
+                        <h1 class="content-title">
+                            Bachelor Degree
+                        </h1>
+                        <p id="resume-content-date">2020-2024</p>
+                        <p id="content-subtitle">
+                            BSIT - Urdaneta City University
+                        </p>
+                        <p>
+                            I earned a BS in Information Technology, specializing in web and mobile development. My
+                            coursework also included cybersecurity or system administration, enhancing my proficiency in
+                            essential programming languages and frameworks.
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-item">
+                    <div class="resume-icon"></div>
+                    <div class="resume-content">
+                        <h1 class="content-title">
+                            Code Course
+                        </h1>
+                        <p id="resume-content-date">2022-2024</p>
+                        <p id="content-subtitle">
+                            Freecodecamp
+                        </p>
+                        <p>
+                            I further enhanced my developer knowledge by completing an online coding course at
+                            FreeCodeCamp. This experience allowed me to deepen my skills in web and mobile development,
+                            adding practical expertise to my foundational education.
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-item">
+                    <div class="resume-icon"></div>
+                    <div class="resume-content">
+                        <h1 class="content-title">
+                            Code Course
+                        </h1>
+                        <p id="resume-content-date">2023-2024</p>
+                        <p id="content-subtitle">
+                            Leetcode
+                        </p>
+                        <p>
+                            I use LeetCode to further enhance my problem-solving skills, tackling a wide range of coding
+                            challenges to improve my proficiency and analytical thinking in programming.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-section">
+                <h1>Experience</h1>
+                <div class="resume-item">
+                    <div class="resume-icon"></div>
+                    <div class="resume-content">
+                        <h1 class="content-title">
+                            OJT/Internship
+                        </h1>
+                        <p id="resume-content-date">2024-2024</p>
+                        <p id="content-subtitle">
+                            iPhiTech IT and Digital Solutions Corporation
+                        </p>
+                        <p>
+                            I completed an internship at iPhiTech IT and Digital Solutions Corporation, where I was
+                            guided into the world of e-commerce. I gained hands-on experience using WordPress and
+                            Shopify to develop and manage online stores.
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-item">
+                    <div class="resume-icon"></div>
+                    <div class="resume-content">
+                        <h1 class="content-title">
+                            Capstone Project
+                        </h1>
+                        <p id="resume-content-date">2022-2024</p>
+                        <p id="content-subtitle">
+                            High-Coffee
+                        </p>
+                        <p>
+                            For my capstone project, I developed an e-commerce system spanning web and mobile platforms,
+                            integrating my skills in both domains to create a robust solution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- my-resume -->
+
+    <!-- my-skill -->
+    <section class="my-skill" id="target-mySkill">
+        <div class="my-skill-title">
+            <h1>Ski<span id="highlight-myskill">lls</span></h1>
+            <h1 id="transparent-text-mySkill">Experience</h1>
+        </div>
+        <div class="skill-holder">
+            <div class="skill-set">
+
+                <div class="skil-set-item" data-index="0">
+                    <div class="skil-set-icon"></div>
+                    <div class="skil-set-content">
+                        <h3>Front-End</h3>
+                        <div class="tech-holder">
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-html5 fa-xl" style="color: #F0931C;"></i></i>&nbsp;HTML</p>
+                            </div>
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-bootstrap fa-xl" style="color: #0f76d0;"></i>&nbsp;BootStrap
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-css3-alt fa-xl" style="color: #0f76d0;"></i>&nbsp;CSS
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-js fa-xl" style="color: #f5fe49;"></i>&nbsp;JS
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-wordpress fa-xl" style="color: #93bbff;"></i>&nbsp;WordPress
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p>
+                                    <svg role="img" width="20px" fill="#93bbff"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title />
+                                        <path
+                                            d="M14.314 0L2.3 12 6 15.7 21.684.012h-7.357L14.314 0zm.014 11.072l-6.471 6.457 6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.371z" />
+                                    </svg>&nbsp;Flutter
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-shopify fa-xl" style="color: #00b521;"></i>&nbsp;Shopify</p>
+                            </div>
+                        </div>
+                        <span>2021 - 2024</span>
+                    </div>
+                </div>
+                <div class="skil-set-item" data-index="1">
+                    <div class="skil-set-icon"></div>
+                    <div class="skil-set-content">
+                        <h3>Back-End</h3>
+                        <div class="tech-holder">
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-java fa-xl" style="color: #F0931C;"></i></i>&nbsp;Java</p>
+                            </div>
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-python fa-xl" style="color: #376C99;"></i>&nbsp;Python</p>
+                            </div>
+                            <div class="tech-used">
+                                <p><i class="fa-brands fa-laravel fa-xl" style="color: #F72C1F;"></i>&nbsp;Laravel</p>
+                            </div>
+                            <div class="tech-used">
+                                <p>
+                                    <?xml version="1.0" ?><svg id="icons" width="20px" fill="#F0931C"
+                                        viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M93.19,329.38,140.64,25.31c1.64-10.37,15.55-12.82,20.46-3.55l51,95.45ZM432,400,385.26,123.21a11,11,0,0,0-18.54-6L80,400l159.36,91.91a33.18,33.18,0,0,0,31.91,0ZM302.36,158.93,265.82,89.39a10.86,10.86,0,0,0-19.36,0L85.83,375.74Z"
+                                            id="icon" />
+                                    </svg>&nbsp;Firebase
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" width="20"
+                                        height="20" fill="#FFF" viewBox="0 0 24 24"
+                                        style="enable-background:new 0 0 24 24;" xml:space="preserve" width="512"
+                                        height="512">
+                                        <g>
+                                            <path style="fill-rule:evenodd;clip-rule:evenodd;"
+                                                d="M5.457,4.257c-0.277,0-0.472,0.033-0.669,0.082v0.033H4.82   c0.132,0.261,0.36,0.441,0.522,0.67c0.131,0.261,0.246,0.521,0.376,0.783C5.734,5.808,5.75,5.791,5.75,5.791   c0.23-0.162,0.344-0.424,0.344-0.816C5.996,4.86,5.98,4.747,5.898,4.632C5.8,4.469,5.588,4.388,5.457,4.257L5.457,4.257z" />
+                                            <path style="fill-rule:evenodd;clip-rule:evenodd;"
+                                                d="M22.107,18.442c-1.307-0.033-2.318,0.098-3.167,0.457   c-0.245,0.098-0.636,0.098-0.67,0.408c0.131,0.13,0.147,0.342,0.262,0.523c0.196,0.326,0.537,0.766,0.848,0.996   c0.343,0.261,0.686,0.521,1.045,0.75c0.636,0.393,1.355,0.621,1.974,1.013c0.36,0.228,0.718,0.522,1.079,0.767   c0.179,0.13,0.292,0.343,0.521,0.424V23.73c-0.115-0.146-0.147-0.359-0.261-0.523c-0.163-0.162-0.327-0.31-0.49-0.472   c-0.474-0.637-1.062-1.191-1.697-1.648c-0.523-0.36-1.666-0.85-1.877-1.452c0,0-0.017-0.017-0.033-0.033   c0.359-0.033,0.784-0.164,1.127-0.263c0.554-0.146,1.06-0.113,1.631-0.26c0.262-0.066,0.523-0.148,0.785-0.228v-0.148   c-0.295-0.293-0.506-0.686-0.817-0.963c-0.832-0.718-1.747-1.419-2.693-2.008c-0.507-0.327-1.16-0.538-1.699-0.816   c-0.195-0.098-0.521-0.146-0.636-0.311c-0.294-0.359-0.458-0.832-0.67-1.257c-0.473-0.897-0.931-1.892-1.338-2.84   c-0.294-0.636-0.473-1.272-0.832-1.86c-1.682-2.775-3.51-4.456-6.317-6.105C7.579,2.2,6.861,2.053,6.094,1.874   C5.685,1.856,5.278,1.825,4.87,1.809C4.608,1.694,4.346,1.384,4.118,1.237c-0.931-0.587-3.329-1.86-4.015-0.179   c-0.441,1.062,0.653,2.106,1.029,2.645c0.277,0.375,0.637,0.8,0.832,1.224C2.078,5.204,2.11,5.498,2.225,5.791   c0.261,0.718,0.505,1.518,0.849,2.188C3.253,8.322,3.449,8.682,3.677,8.99c0.132,0.181,0.36,0.261,0.409,0.556   C3.858,9.872,3.84,10.362,3.71,10.77c-0.587,1.845-0.359,4.13,0.474,5.484c0.261,0.408,0.881,1.306,1.714,0.963   c0.734-0.293,0.571-1.224,0.783-2.039c0.049-0.197,0.016-0.327,0.114-0.457v0.033c0.228,0.456,0.457,0.896,0.67,1.355   c0.506,0.799,1.387,1.632,2.123,2.186c0.391,0.295,0.701,0.8,1.191,0.98v-0.049h-0.032c-0.098-0.146-0.245-0.212-0.375-0.326   c-0.294-0.294-0.62-0.653-0.849-0.98c-0.685-0.914-1.29-1.926-1.828-2.971c-0.262-0.507-0.49-1.062-0.702-1.567   c-0.098-0.195-0.098-0.49-0.261-0.587c-0.246,0.359-0.604,0.669-0.783,1.109c-0.31,0.703-0.343,1.568-0.458,2.466   c-0.065,0.017-0.032,0-0.065,0.032c-0.522-0.13-0.701-0.669-0.898-1.125c-0.489-1.16-0.572-3.021-0.147-4.36   c0.114-0.342,0.605-1.419,0.408-1.746C4.689,8.859,4.363,8.682,4.184,8.436c-0.212-0.31-0.442-0.701-0.587-1.045   c-0.392-0.914-0.589-1.926-1.012-2.84c-0.196-0.425-0.54-0.866-0.816-1.257C1.458,2.853,1.115,2.543,0.87,2.021   c-0.081-0.18-0.195-0.474-0.065-0.669c0.032-0.131,0.098-0.18,0.229-0.213C1.245,0.96,1.85,1.188,2.061,1.286   C2.666,1.53,3.172,1.76,3.677,2.102c0.229,0.164,0.474,0.474,0.767,0.556h0.343c0.522,0.113,1.11,0.032,1.6,0.179   c0.864,0.277,1.648,0.685,2.35,1.126c2.138,1.355,3.901,3.282,5.092,5.583c0.196,0.375,0.279,0.718,0.458,1.109   c0.343,0.802,0.768,1.618,1.11,2.4c0.343,0.767,0.67,1.55,1.16,2.188c0.244,0.342,1.224,0.522,1.665,0.702   c0.326,0.146,0.832,0.277,1.126,0.456c0.555,0.342,1.109,0.735,1.632,1.111C21.241,17.708,22.058,18.115,22.107,18.442   L22.107,18.442z" />
+                                        </g>
+                                    </svg>&nbsp;MySql
+                                </p>
+                            </div>
+                        </div>
+                        <span>2021 - 2024</span>
+                    </div>
+                </div>
+                <div class="skil-set-item" data-index="2">
+                    <div class="skil-set-icon"></div>
+                    <div class="skil-set-content">
+                        <h3>Mobile</h3>
+                        <div class="tech-holder">
+                            <div class="tech-used">
+                                <p>
+                                    <?xml version="1.0" ?><svg role="img" width="20px" fill="#93bbff"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <title />
+                                        <path
+                                            d="M14.314 0L2.3 12 6 15.7 21.684.012h-7.357L14.314 0zm.014 11.072l-6.471 6.457 6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.371z" />
+                                    </svg>&nbsp;Flutter
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p>
+                                    <i class="fa-brands fa-android fa-xl" style="color: #00b521;"></i>&nbsp;Android
+                                    Studio
+                                </p>
+                            </div>
+                        </div>
+                        <span>2022 - 2024</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skill-set">
+
+                <div class="skil-set-item" data-index="1">
+                    <div class="skil-set-icon"></div>
+                    <div class="skil-set-content">
+                        <h3>UI Designer</h3>
+                        <div class="tech-holder">
+                            <div class="tech-used">
+                                <p>
+                                    <i class="fa-brands fa-figma fa-xl" style="color: #93bbff;"></i>&nbsp;Figma
+                                </p>
+                            </div>
+                        </div>
+                        <span>2022 - 2024</span>
+                    </div>
+                </div>
+                <div class="skil-set-item" data-index="3">
+                    <div class="skil-set-icon"></div>
+                    <div class="skil-set-content">
+                        <h3>Graphic Designer</h3>
+                        <div class="tech-holder">
+                            <div class="tech-used">
+                                <p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                        fill="#93bbff" viewBox="0 0 50 50">
+                                        <path
+                                            d="M 25 2 C 12.317 2 2 12.317 2 25 C 2 37.683 12.317 48 25 48 C 37.683 48 48 37.683 48 25 C 48 12.317 37.683 2 25 2 z M 25 4 C 36.579 4 46 13.421 46 25 C 46 36.579 36.579 46 25 46 C 13.421 46 4 36.579 4 25 C 4 13.421 13.421 4 25 4 z M 27.570312 10.042969 C 19.819312 10.042969 12.931641 17.229875 12.931641 27.171875 C 12.931641 34.867875 17.326422 39.953125 24.107422 39.953125 C 31.304422 39.953125 35.466797 32.79275 35.466797 30.46875 C 35.466797 29.95475 35.203688 29.71875 34.929688 29.71875 C 34.739688 29.71875 34.572437 29.878516 34.398438 30.228516 C 32.435437 34.208516 29.045094 37.025391 25.121094 37.025391 C 20.584094 37.025391 17.775391 32.929484 17.775391 27.271484 C 17.775391 17.688484 23.114688 12.148438 27.804688 12.148438 C 29.996688 12.148438 31.335938 13.524797 31.335938 15.716797 C 31.335938 18.317797 29.857422 19.695281 29.857422 20.613281 C 29.857422 21.025281 30.113094 21.273438 30.621094 21.273438 C 32.662094 21.273438 35.056641 18.928234 35.056641 15.615234 C 35.056641 12.403234 32.260312 10.042969 27.570312 10.042969 z">
+                                        </path>
+                                    </svg>&nbsp;Canva
+                                </p>
+                            </div>
+                            <div class="tech-used">
+                                <p>
+                                    <i class="fa-brands fa-figma fa-xl" style="color: #93bbff;"></i>&nbsp;Figma
+                                </p>
+                            </div>
+                        </div>
+                        <span>2022 - 2024</span>
+                    </div>
+                </div>
+                <div class="skil-set-item" data-index="4">
+                    <div class="skil-set-icon"></div>
+                    <div class="skil-set-content">
+                        <h3>Video Editor</h3>
+                        <div class="tech-holder">
+                            <div class="tech-used">
+                                <p><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                        viewBox="0 0 48 48">
+                                        <path fill="#37474f"
+                                            d="M15,6h18c4.971,0,9,4.029,9,9v18c0,4.971-4.029,9-9,9H15c-4.971,0-9-4.029-9-9V15	C6,10.029,10.029,6,15,6z">
+                                        </path>
+                                        <path fill="#fff"
+                                            d="M21,9l-7,7l5.5,5.5c0.828,0.829,0.828,2.171,0,3L28,16L21,9z"></path>
+                                        <polygon fill="#1de9b6" points="29.532,17.5 15,31.983 22.042,39 36.574,24.517">
+                                        </polygon>
+                                    </svg></i></i>&nbsp;Filmora</p>
+                            </div>
+                            <div class="tech-used">
+                                <p>
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg width="20" height="20" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"
+                                        fill="none">
+                                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12"
+                                            d="M170 42 22 124v14c0 6.627 5.373 12 12 12h78c6.627 0 12-5.373 12-12v-9.5" />
+                                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12"
+                                            d="M170 150 22 68V54c0-6.627 5.373-12 12-12h78c6.627 0 12 5.373 12 12v9.5" />
+                                    </svg>&nbsp;CapCut
+                                </p>
+                            </div>
+                        </div>
+                        <span>2019 - 2024</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- my-skill -->
+
+    <!-- service -->
+    <section class="service" id="target-myService">
+        <div class="my-service-title">
+            <h1>Ser<span id="highlight-myservice">vices</span></h1>
+            <h1 id="transparent-text-myservice">Expertise</h1>
+        </div>
+        <div class="service-content">
+            <div class="service-item">
+                <svg fill="#dcdcdc" width="60px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 2;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+                    </style>
+                    <path d="M27,4H5C3.3,4,2,5.3,2,7v18c0,1.7,1.3,3,3,3h22c1.7,0,3-1.3,3-3V7C30,5.3,28.7,4,27,4z M9.1,7.6c0.1-0.1,0.1-0.2,0.2-0.3
+	c0.1-0.1,0.2-0.2,0.3-0.2C10,6.9,10.4,7,10.7,7.3c0.1,0.1,0.2,0.2,0.2,0.3C11,7.7,11,7.9,11,8c0,0.3-0.1,0.5-0.3,0.7
+	C10.5,8.9,10.3,9,10,9C9.7,9,9.5,8.9,9.3,8.7C9.1,8.5,9,8.3,9,8C9,7.9,9,7.7,9.1,7.6z M6,8c0-0.3,0.1-0.5,0.3-0.7
+	c0,0,0.1-0.1,0.1-0.1c0.1,0,0.1-0.1,0.2-0.1C6.7,7,6.7,7,6.8,7c0.1,0,0.3,0,0.4,0c0.1,0,0.1,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1
+	c0,0,0.1,0.1,0.1,0.1c0.1,0.1,0.2,0.2,0.2,0.3C8,7.7,8,7.9,8,8c0,0.1,0,0.3-0.1,0.4C7.9,8.5,7.8,8.6,7.7,8.7C7.5,8.9,7.3,9,7,9
+	S6.5,8.9,6.3,8.7C6.1,8.5,6,8.3,6,8z M11.7,21.3c0.4,0.4,0.4,1,0,1.4C11.5,22.9,11.3,23,11,23s-0.5-0.1-0.7-0.3l-3-3
+	c-0.4-0.4-0.4-1,0-1.4l3-3c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4L9.4,19L11.7,21.3z M12.6,8.9c-0.1-0.1-0.2-0.1-0.3-0.2
+	c-0.1-0.1-0.2-0.2-0.2-0.3C12,8.3,12,8.1,12,8c0-0.1,0-0.3,0.1-0.4c0.1-0.1,0.1-0.2,0.2-0.3c0.4-0.4,1-0.4,1.4,0
+	c0.1,0.1,0.2,0.2,0.2,0.3C14,7.7,14,7.9,14,8c0,0.1,0,0.3-0.1,0.4c-0.1,0.1-0.1,0.2-0.2,0.3C13.5,8.9,13.3,9,13,9
+	C12.9,9,12.7,9,12.6,8.9z M18.9,15.4l-4,8C14.7,23.8,14.4,24,14,24c-0.2,0-0.3,0-0.4-0.1c-0.5-0.2-0.7-0.8-0.4-1.3l4-8
+	c0.2-0.5,0.8-0.7,1.3-0.4C18.9,14.4,19.1,15,18.9,15.4z M24.7,19.7l-3,3C21.5,22.9,21.3,23,21,23s-0.5-0.1-0.7-0.3
+	c-0.4-0.4-0.4-1,0-1.4l2.3-2.3l-2.3-2.3c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l3,3C25.1,18.7,25.1,19.3,24.7,19.7z" />
+                </svg>
+                <h1>Web Development</h1>
+                <p>Building intuitive websites with seamless functionality tailored to elevate your online presence.</p>
+            </div>
+            <div class="service-item">
+                <svg fill="#dcdcdc" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                    <g>
+                        <g>
+                            <rect x="122.744" y="113.894" width="266.512" height="280.033" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M339.853,0H172.147c-27.241,0-49.403,22.162-49.403,49.403v33.144h266.512V49.403C389.256,22.162,367.094,0,339.853,0z
+			 M277.41,51.921h-78.346V33.113h78.346V51.921z M312.936,51.921h-18.787V33.113h18.787V51.921z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M122.744,425.273v37.324c0,27.24,22.162,49.403,49.403,49.403h167.706c27.24,0,49.403-22.162,49.403-49.403v-37.324
+			H122.744z M281.558,482.753h-51.116v-31.347h51.116V482.753z" />
+                        </g>
+                    </g>
+                </svg>
+                <h1>Mobile Development</h1>
+                <p>Creating user-friendly mobile apps that enhance your business's digital presence, with a focus on
+                    seamless functionality.</p>
+            </div>
+            <div class="service-item">
+                <svg width="60px" version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve">
+                    <style type="text/css">
+                        .stone_een {
+                            fill: #dcdcdc;
+                        }
+                    </style>
+                    <path class="stone_een" d="M15,10h2v2h-2V10z M6.5,10C6.224,10,6,10.224,6,10.5S6.224,11,6.5,11S7,10.776,7,10.5S6.776,10,6.5,10z
+	 M21.5,29H20v-2h-8v2h-1.5c-0.276,0-0.5,0.224-0.5,0.5c0,0.276,0.224,0.5,0.5,0.5h11c0.276,0,0.5-0.224,0.5-0.5
+	C22,29.224,21.776,29,21.5,29z M32,7v16c0,1.657-1.343,3-3,3H3c-1.657,0-3-1.343-3-3V7c0-1.657,1.343-3,3-3h26
+	C30.657,4,32,5.343,32,7z M26.966,10.174c-0.12-0.572-0.587-1.03-1.16-1.144c-0.782-0.154-1.475,0.3-1.713,0.97H18V9h-4v1H7.908
+	C7.67,9.33,6.976,8.876,6.195,9.03c-0.573,0.113-1.04,0.572-1.16,1.144C4.83,11.145,5.565,12,6.5,12c0.652,0,1.202-0.419,1.408-1H14
+	v0.224c-4.388,0.897-7.745,4.658-7.986,9.246C5.999,20.757,6.227,21,6.515,21h0c0.263,0,0.484-0.204,0.497-0.467
+	c0.209-4.065,3.134-7.41,6.988-8.289V13h4v-0.757c3.854,0.88,6.779,4.225,6.988,8.289C25.002,20.796,25.222,21,25.485,21h0
+	c0.288,0,0.516-0.243,0.501-0.53c-0.241-4.588-3.598-8.349-7.986-9.246V11h6.092c0.207,0.581,0.756,1,1.408,1
+	C26.435,12,27.17,11.145,26.966,10.174z M25.5,10c-0.276,0-0.5,0.224-0.5,0.5s0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5
+	S25.776,10,25.5,10z" />
+                </svg>
+                <h1>Web & Mobile Designs</h1>
+                <p>Creating sleek UI designs for web and mobile platforms, enhancing user experience and visual appeal.
+                </p>
+            </div>
+            <div class="service-item">
+                <svg fill="#dcdcdc" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.002 512.002" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M319.263,228.54l-35.661-35.662c-11.635-1.228-23.7,2.588-32.617,11.504c-22.81,22.81-10.871,40.363-39.5,79.443
+			c0,0,75.415-1.809,96.275-22.667C316.678,252.241,320.49,240.175,319.263,228.54z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M509.907,2.094C491.6-16.214,369.982,90.06,315.06,144.982c0,0-6.567,8.321-13.69,18.443l47.201,47.202
+			c10.121-7.125,18.441-13.694,18.441-13.694C421.934,142.011,528.214,20.401,509.907,2.094z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M462.548,221.286c-14.632-12.683-28.929-22.507-42.49-31.338c-11.018,11.822-21.114,22.276-29.434,30.595l-1.384,1.383
+			l-1.535,1.212c-0.372,0.294-9.223,7.271-20.019,14.867c-6.448,4.537-11.895,8.106-16.541,10.938
+			c-2.992,13.393-9.739,25.79-19.773,35.826c-14.267,14.267-38.054,23.355-74.859,28.602c-23.141,3.299-43.378,3.815-44.227,3.837
+			l-25.501,0.611c1.372,1.048,2.697,2.19,3.951,3.445c15.293,15.293,15.293,40.087,0,55.381c-15.293,15.293-40.087,15.293-55.381,0
+			s-15.293-40.087,0-55.381c4.067-4.067,8.81-7.041,13.863-8.945l35.33-48.226c11.021-15.045,13.759-24.687,16.929-35.852
+			c3.811-13.422,8.554-30.127,25.896-47.469c9.919-9.919,22.183-16.654,35.543-19.689c2.842-4.679,6.432-10.17,11.005-16.674
+			c7.619-10.839,14.632-19.74,14.927-20.113l1.214-1.538l1.386-1.386c8.125-8.125,18.616-18.254,30.606-29.422
+			c-8.831-13.564-18.656-27.862-31.34-42.495C236.59-12.987,141.397-16.863,82.449,41.049c-0.787,0.774-1.571,1.552-2.351,2.336
+			c-107.028,107.664-106.76,280.586,0.587,387.932s280.269,107.615,387.932,0.587c0.785-0.78,1.564-1.564,2.336-2.351
+			C528.864,370.604,524.99,275.411,462.548,221.286z M169.917,69.906c18.313-11.507,42.486-5.989,53.993,12.324
+			s5.989,42.486-12.324,53.993c-18.313,11.507-42.486,5.989-53.993-12.324S151.605,81.411,169.917,69.906z M113.306,258.252
+			c-21.492-2.422-36.951-21.807-34.529-43.299s21.807-36.951,43.298-34.529c21.492,2.422,36.951,21.807,34.529,43.299
+			C154.184,245.213,134.798,260.674,113.306,258.252z M297.047,433.223c-21.492,2.422-40.877-13.038-43.299-34.529
+			c-2.422-21.492,13.038-40.877,34.529-43.299c21.492-2.422,40.877,13.038,43.298,34.529
+			C333.998,411.416,318.539,430.802,297.047,433.223z M442.096,342.084c-11.507,18.313-35.68,23.83-53.993,12.324
+			c-18.313-11.507-23.83-35.68-12.324-53.993c11.507-18.313,35.68-23.83,53.993-12.324
+			C448.085,299.598,453.603,323.771,442.096,342.084z" />
+                        </g>
+                    </g>
+                </svg>
+                <h1>Graphic Design</h1>
+                <p>Creating compelling graphic designs to captivate audiences across digital and print mediums.</p>
+            </div>
+            <div class="service-item">
+                <svg fill="#dcdcdc" width="60px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+
+                    <rect x="0" fill="none" width="20" height="20" />
+
+                    <g>
+
+                        <path
+                            d="M8 5c0-.55-.45-1-1-1H2c-.55 0-1 .45-1 1 0 .57.49 1 1 1h5c.55 0 1-.45 1-1zm6 5l4-4v10l-4-4v-2zm-1 4V8c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h8c.55 0 1-.45 1-1z" />
+
+                    </g>
+
+                </svg>
+                <h1>Video Editing</h1>
+                <p>Producing engaging video edits to captivate audiences across digital platforms.</p>
+            </div>
+        </div>
+    </section>
+    <!-- service -->
+
+    <!-- contact -->
+    <section class="contact" id="target-myContact">
+        <div class="contact-holder">
+            <div class="social-media">
+                <h1>Get <span id="highlight-text">in</span> touch</h1>
+                <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m.
+                    ET, Monday through Friday</p>
+                <div class="media-content">
+                    <div class="media-icon"><i id="facebook-icon" class="fa-brands fa-facebook-f fa-2xl" style="color: #dcdcdc;"></i></div>
+                    <h1><a href="https://www.facebook.com/MickoD16/" target="_blank">facebook.com/MickoD16/</a></h1>
+                </div>
+                <div class="media-content">
+                    <div class="media-icon"><i id="linkedin-icon" class="fa-brands fa-linkedin-in fa-2xl" style="color: #dcdcdc;"></i>
+                    </div>
+                    <h1><a href="https://www.linkedin.com/in/mickod16/" target="_blank">linkedin.com/in/mickod16/</a>
+                    </h1>
+                </div>
+                <div class="media-content">
+                    <div class="media-icon"><i id="address-icon" class="fa-solid fa-location-dot fa-2xl" style="color: #dcdcdc;"></i>
+                    </div>
+                    <h1>Umingan, Pangasinan</h1>
+                </div>
+                <div class="media-content">
+                    <img src="assets/Logo.png" alt="">
+                    <h1>Micko D</h1>
+                </div>
+            </div>
+            <form id="contact-form" action="https://formspree.io/f/manwykpe" method="POST">
+                <div class="contact-form">
+                    <div class="contact-inputs">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                    </div>
+                    <textarea name="message" id="message" placeholder="Message..."></textarea>
+                    <button type="submit">Send</button>
+                    <p id="form-response" style="display:none; color:green;">Thanks for reaching out! I will get back to you soon.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- contact -->
+
+    <footer class="footer">
+        <div class="copy-right">
+            <p>Copyright &copy; 2024 All Rights Reserved.</p>
+            <p>Developed by <span>Micko D</span></p>
+        </div>
+    </footer>
+
+    <!-- <script type="module" src="scripts/main.js"></script> -->
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>

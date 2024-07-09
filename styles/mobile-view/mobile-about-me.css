@@ -1,0 +1,197 @@
+/* tbalet */
+@media (max-width: 1023px) {
+    .about-me-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .about-me h1 {
+        font-size: 50px;
+        letter-spacing: .09em;
+        margin-top: 0px;
+        opacity: .7;
+    }
+
+    #highlight-me {
+        color: #dcdcdc;
+    }
+
+    #transparent-text-aboutMe {
+        display: flex;
+        position: absolute;
+        transform: translateY(30px);
+        font-size: 70px;
+        color: #6817b956;
+        z-index: -1;
+        margin-top: 0px;
+    }
+
+    .about-me .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .about-me .content .content-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me .content .content-image .image-holder {
+        width: 210px;
+        height: 270px;
+        background-image: url("/assets/room3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #1212127d;
+        background-blend-mode: overlay;
+        border-radius: 20px;
+        border-top-left-radius: 150px;
+        z-index: 1;
+    }
+
+    .about-me .content-image .border-holder {
+        width: 210px;
+        height: 270px;
+        display: flex;
+        position: absolute;
+        border: 8px solid #6817b99c;
+        border-top-left-radius: 150px;
+    }
+
+    .about-me .content .info-holder {
+        width: 350px;
+        min-height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: first baseline;
+    }
+
+    .about-me .content .info-holder .basic-info {
+        width: 110px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .about-me .content .info-holder .basic-info:nth-child(2) {
+        width: 190px;
+    }
+
+    .truncate {
+        display: inline-block;
+        max-width: 190px;
+        /* Set the desired maximum width */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        vertical-align: bottom;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .about-me-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .about-me h1 {
+        font-size: 30px;
+        letter-spacing: .09em;
+        margin-top: 0px;
+        opacity: .7;
+    }
+
+    #highlight-me {
+        color: #dcdcdc;
+    }
+
+    #transparent-text-aboutMe {
+        display: flex;
+        position: absolute;
+        transform: translateY(20px);
+        font-size: 42px;
+        color: #6817b956;
+        z-index: -1;
+        margin-top: 0px;
+    }
+
+    .about-me .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .about-me .content .content-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me .content .content-image .image-holder {
+        width: 210px;
+        height: 270px;
+        background-image: url("/assets/room3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #1212127d;
+        background-blend-mode: overlay;
+        border-radius: 20px;
+        border-top-left-radius: 150px;
+        z-index: 1;
+    }
+
+    .about-me .content-image .border-holder {
+        width: 210px;
+        height: 270px;
+        display: flex;
+        position: absolute;
+        border: 8px solid #6817b99c;
+        border-top-left-radius: 150px;
+    }
+
+    .about-me .content .info-holder {
+        min-width: 80%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: first baseline;
+    }
+
+    .about-me .content .info-holder .basic-info {
+        min-width: 110px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .about-me .content .info-holder .basic-info:nth-child(2) {
+        min-width: 110px;
+    }
+
+    .truncate {
+        display: inline-block;
+        max-width: 110px;
+        /* Set the desired maximum width */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        vertical-align: bottom;
+    }
+
+}

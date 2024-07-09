@@ -1,0 +1,54 @@
+.introduction{
+    min-width: 570px;
+    max-width: 570px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #6817b97c;
+    border-radius: 20px;
+}
+
+div.box{
+    width: 150px;
+    height: 90px;
+    background-color: #ff09f37e;
+    display: flex;
+    position: absolute;
+    transform: translateX(470px) translateY(-50px);
+    border-radius: 20px;
+}
+
+.introduction p, .introduction h1{
+    letter-spacing: 0.1em;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+.introduction p{
+    font-weight: bolder;
+}
+
+.introduction h1{
+    font-size: 32px;
+    line-height: .5;
+    margin-bottom: 30px;
+    color: #dcdcdc;
+}
+
+.introduction #typing-text-position{
+    color: #dcdcdc;
+}
+
+#my-p-tag{
+    line-height: 1.8;
+    color: #dcdcdc;
+}
+
+.typing-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

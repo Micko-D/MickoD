@@ -1,0 +1,170 @@
+.contact .contact-holder{
+    min-width: 1400px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.social-media{
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 450px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form{
+    min-width: 550px;
+    max-width: 550px;
+    min-height: 450px;
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.media-content{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.social-media h1{
+    margin-top: 0px;
+    border-bottom: 4px solid;
+    width: fit-content;
+    margin-bottom: 0px;
+    letter-spacing: 0.1em;
+    opacity: .9;
+}
+
+.social-media #highlight-text{
+    color: #dcdcdc;
+}
+
+.media-icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6817B9;
+    border-radius: 50%;
+}
+
+.media-content h1{
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    border-bottom: 0px;
+}
+
+.social-media p{
+    margin-top: 0px;
+    color: #dcdcdc;
+}
+
+.media-content a{
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+}
+
+.media-content img{
+    width: 60px;
+}
+
+.media-content:hover i{
+    color: #6817B9 !important;
+}
+
+.media-content:hover .media-icon{
+    background-color: #dcdcdc;
+    transition: ease-in-out .6s;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form input{
+    width: 45%;
+    height: 25px;
+    background-color: #6817b900;
+    border: 2px solid #dcdcdcc9;
+    border-radius: 5px;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    color: #dcdcdc;
+}
+
+.contact-form textarea{
+    height: 220px;
+    background-color: #6817b900;
+    border: 2px solid #dcdcdcc9;
+    border-radius: 5px;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    color: #dcdcdc;
+}
+
+.contact-form button{
+    width: fit-content;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #6817B9;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    color: #dcdcdc;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+
+
+/* Notification styles */
+.notification {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 1000;
+    text-align: center;
+}
+
+.notification.success {
+    background-color: #28a745; /* Green */
+}
+
+.notification.error {
+    background-color: #dc3545; /* Red */
+}

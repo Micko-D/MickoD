@@ -1,0 +1,73 @@
+.profile-section{
+    min-width: 370px;
+    max-width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-section .image{
+    width: 230px;
+    height: 230px;
+    background-color: #FFFF;
+    background-image: url("/assets/profile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: -10px -2px 20px #6817B9;
+}
+
+.profile-section .image-overlay{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    position: absolute;
+    background-color: #00000044;
+    border-radius: 50%;
+}
+
+.profile-section .mini-logo{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(90px) translateY(150px);
+    border-radius: 50%;
+}
+
+.profile-section .profile-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.profile-section .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #6817b978;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.profile-section .social-links i{
+    cursor: pointer;
+    color: #dcdcdc;
+}
+
+.profile-section .social-links i:hover{
+    color: #FF09F3;
+    transition: ease-in-out .3s;
+}

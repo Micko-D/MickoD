@@ -1,0 +1,7 @@
+/* mobile */
+@media (max-width: 767px) {
+    .copy-right p {
+        color: #dcdcdc;
+        font-size: 8px;
+    }
+}
