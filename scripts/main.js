@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     include("scripts/modules/form-validation.js");
     include("scripts/modules/burger-menu.js");
     include("scripts/modules/change-social-contact-icon-size.js");
+    include("scripts/modules/show-modal.js");
 
     
 });

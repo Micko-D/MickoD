@@ -3,14 +3,6 @@
     .service{
         height: fit-content !important;
     }
-
-    .my-service-title {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 0px;
-    }
     
     .service .my-service-title h1 {
         font-size: 50px;
@@ -54,14 +46,6 @@
         height: fit-content !important;
     }
 
-    .my-service-title {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 0px;
-    }
-    
     .service .my-service-title h1 {
         font-size: 30px;
         letter-spacing: .09em;
@@ -92,21 +76,6 @@
         gap: 20px;
     }
     
-    .service-content .service-item {
-        min-width: 310px;
-        max-width: 310px;
-        min-height: 250px;
-        max-height: 250px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 10px 5px 10px 10px;
-        background-color: #6817b9d6;
-        border-radius: 10px;
-        opacity: 0; /* Start with opacity 0 */
-        transform: translateY(20px); /* Start off-screen */
-        transition: opacity .8s ease, transform 1s ease; /* Smooth transition */
-    }
     
     .service-content .service-item:nth-child(even) {
         transform: translateY(80px); /* Even items start from below */
@@ -139,8 +108,4 @@
         text-shadow: 1px 0px 5px #ff09f3af;
     }
     
-    .service-item p {
-        color: #dcdcdc;
-        text-align: center;
-    }
 }

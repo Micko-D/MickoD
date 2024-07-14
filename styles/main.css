@@ -16,6 +16,7 @@
 @import "sections/my-service.css";
 @import "sections/contact.css";
 @import "sections/footer.css";
+@import "sections/modal.css";
 
 
 @import "mobile-view/mobile-navigation.css";
@@ -26,6 +27,7 @@
 @import "mobile-view/mobile-service.css";
 @import "mobile-view/mobile-contact.css";
 @import "mobile-view/mobile-footer.css";
+@import "mobile-view/mobile-grap-sample.css";
 
 
 

@@ -77,6 +77,7 @@
 
 .service-item:hover svg{
     transform: scale(1.2);
+    fill: #FF09F3;
 }
 
 .service-item h1 {
@@ -86,9 +87,25 @@
     text-align: center;
     letter-spacing: 0.1em;
     text-shadow: 1px 0px 5px #ff09f3af;
+    transition: ease-in-out .3s;
 }
 
-.service-item p {
+.service-item:hover h1{
+    color: #dcdcdc;
+    text-shadow: 1px 0px 5px #dcdcdc;
+}
+
+.service-item p{
     color: #dcdcdc;
     text-align: center;
+}
+
+.service-item .grap-samples{
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    margin-top: 0px;
+}
+
+.service-item .grap-samples:hover {
+    transform: scale(1.2);
 }
